@@ -1,22 +1,19 @@
-jQuery Nearest Element plugin
-======
+Ported from jQuery Nearest plugin v1.4.0 (2011-2015 Gilmore Davidson under the MIT licence)
+   http://gilmoreorless.github.io/jquery-nearest/LICENSE.txt
 
-**Full documentation is at <http://gilmoreorless.github.io/jquery-nearest/>**
+Ported to pure ES6 by: Jorge Duarte Rodriguez <info@malagadev.com>
+August 2018
 
-**Demo:** <http://gilmoreorless.github.io/jquery-nearest/demo.html>
 
-Method signatures:
+1. Import module.
 
- * `$.nearest({x, y}, selector)` - find `$(selector)` closest to x/y point on screen
- * `$(elem).nearest(selector)` - find `$(selector)` closest to elem
- * `$(elemSet).nearest({x, y})` - filter `$(elemSet)` and return closest to x/y point on screen
+import Nearest from './Classes/Nearest'
 
-Reverse logic:
+2. Create new instance.
 
- * `$.furthest()`
- * `$(elem).furthest()`
+      let nearest = new Nearest({
+        x: xPosition,
+        y: yPosition
+      }, '.filterSelector', document.getElementById('parentDomElement'))
 
-Intersecting/touching:
 
- * `$.touching()`
- * `$(elem).touching()`

@@ -11,13 +11,15 @@ First of all, thanks for wanting to take the time to make this code better. Ever
 
 ## Which files to edit
 
-For the plugin itself: **`src/jquery.nearest.js`** (plus tests, see below)
+For the plugin itself: **`src/es6-nearest.js`** (plus tests, see below)
 
 For documentation: **`index.html`**
 
 Don't worry about updating the minified JS file, it gets built automatically as part of a release.
 
 ## Tests
+
+@todo
 
 Tests are run using QUnit and live in **`test/nearest_test.js`**. Open `test/index.html` in a browser to make sure tests are passing.
 

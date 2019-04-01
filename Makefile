@@ -1,5 +1,5 @@
-SRC = src/jquery.nearest.js
-MIN = src/jquery.nearest.min.js
+SRC = src/nearest-es6.js
+MIN = src/nearest-es6.min.js
 VERSION = $(shell cat VERSION.txt)
 
 $(MIN): uglify

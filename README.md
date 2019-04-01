@@ -1,8 +1,8 @@
 Ported from jQuery Nearest plugin v1.4.0 (2011-2015 Gilmore Davidson under the MIT licence)
    http://gilmoreorless.github.io/jquery-nearest/LICENSE.txt
 
-Ported to pure ES6 by: Jorge Duarte Rodriguez <info@malagadev.com>
-August 2018
+Ported to pure ES6 (jQuery is not longer needed!) by:
+2018-2019 Jorge Duarte Rodriguez <info@malagadev.com> under the MIT license
 
 
 1. Import module.

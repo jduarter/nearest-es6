@@ -1,34 +1,40 @@
 {
-  "name": "jquery-nearest",
-  "title": "jQuery Nearest Element",
-  "description": "jQuery plugin to find the elements in a page that are closest to (or furthest away from) a particular point or element, based on pixel dimensions",
-  "version": "1.4.0",
-  "keywords": ["jquery-plugin", "ecosystem:jquery", "nearest", "furthest", "touching", "pixel", "distance"],
-  "main": "src/jquery.nearest.js",
+  "name": "nearest-es6",
+  "title": "ES6 Nearest Element",
+  "description": "ES6 class to find the elements in a page that are closest to (or furthest away from) a particular point or element, based on pixel dimensions",
+  "version": "0.9.0",
+  "keywords": [
+    "es6-class",
+    "ecosystem:es6",
+    "nearest",
+    "furthest",
+    "touching",
+    "pixel",
+    "distance"
+  ],
+  "main": "src/nearest-es6.js",
   "files": [
-    "src/jquery.nearest.js",
-    "src/jquery.nearest.min.js",
+    "src/nearest-es6.js",
+    "src/nearest-es6.min.js",
     "CONTRIBUTING.md",
     "LICENSE.txt",
     "README.md"
   ],
   "author": {
-    "name": "Gilmore Davidson",
-    "url": "https://shoehornwithteeth.com/"
+    "name": "Jorge Duarte",
+    "url": "http://www.malagadev.com/"
   },
-  "homepage": "http://gilmoreorless.github.io/jquery-nearest/",
+  "homepage": "http://jduarter.github.io/nearest-es6/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/gilmoreorless/jquery-nearest.git"
+    "url": "git://github.com/jduarter/nearest-es6.git"
   },
-  "bugs": "https://github.com/gilmoreorless/jquery-nearest/issues",
+  "bugs": "https://github.com/jduarter/nearest-es6/issues",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://gilmoreorless.github.io/jquery-nearest/LICENSE.txt"
+      "url": "http://jduarter.github.io/nearest-es6/LICENSE.txt"
     }
   ],
-  "dependencies": {
-    "jquery": ">=1.4"
-  }
+  "dependencies": {}
 }
